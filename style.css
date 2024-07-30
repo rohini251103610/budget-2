@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 500px;
+    height:300px;
+    margin: 50px auto;
+    background:sandybrown;
+    padding: 30px;
+    border:3px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+h2 {
+    
+    background-color: #232071;
+    color: white;
+    padding: 10px;
+    margin: -30px -30px 30px -30px;
+  
+}
+
+form {
+    display: flex;
+}
+
+.form-control {
+    min-width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #171461;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0fc4dc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #0d2b6b;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: darkred;
+}
+
+#transaction-table{
+    background-color: #122d63;
+    color: aliceblue;
+}
